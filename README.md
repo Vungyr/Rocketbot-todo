@@ -40,6 +40,7 @@ Esto levantará los servicios:
 - `todo_mysql` (MySQL 9.3.0)  
 - `todo_backend` (Node.js backend)  
 - `todo_frontend` (React + Nginx frontend)
+  
   ![image](https://github.com/user-attachments/assets/f035f4a4-2344-4e9d-a5cf-5c986fc54e3c)
   ![image](https://github.com/user-attachments/assets/b244bb30-8374-4338-b5aa-302ddd5810a4)
 
