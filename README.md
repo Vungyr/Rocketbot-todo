@@ -76,21 +76,25 @@ tambien tenemos el boton cerrar sesion en donde podremos dar por terminada la se
 
 por detras el flujo en el backend seria algo asi
 
-Frontend (SPA React)
-  |
-  | -- /auth/login (redirección al backend)
-  | -- /tasks (CRUD protegido con JWT)
-  |  
+Frontend (React SPA)
+
+    /auth/login: redirige al backend para login.
+
+    /tasks: CRUD protegido con JWT.
+
 Backend (Express)
-  |
-  | -- /auth/login (redirige a Auth0)
-  | -- /auth/callback (intercambia code de Auth0 por token, upsert user, devolvemos el JWT al front en donde se almacena para los llamados CRUD)
-  | -- /tasks (CRUD protegido con JWT)
-  |
-Base de datos (MySQL)
-  |
-  | -- Tabla users (almacena usuarios con auth0Id)
-  | -- Tabla tasks (tareas asociadas a usuarios)
+
+    /auth/login: redirige a Auth0.
+
+    /auth/callback: intercambia código Auth0 por JWT, crea/actualiza usuario, devuelve JWT al frontend.
+
+    /tasks: CRUD protegido con JWT.
+
+Base de Datos (MySQL)
+
+    users: usuarios con auth0Id.
+
+    tasks: tareas asociadas a usuarios.
 
 
 
