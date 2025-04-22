@@ -78,17 +78,17 @@ por detras el flujo en el backend seria algo asi
 
 Frontend (React SPA)
 
-    /auth/login: redirige al backend para login.
+    /auth/login: redirige al backend para login con Auth0.
 
-    /tasks: CRUD protegido con JWT.
+    /tasks: Consume CRUD protegido con JWT.
 
 Backend (Express)
 
     /auth/login: redirige a Auth0.
 
-    /auth/callback: intercambia código Auth0 por JWT, crea/actualiza usuario, devuelve JWT al frontend.
+    /auth/callback: intercambia código Auth0 por token, upsert user, devuelve JWT al frontend.
 
-    /tasks: CRUD protegido con JWT.
+    /tasks: Publica CRUD protegido con JWT.
 
 Base de Datos (MySQL)
 
