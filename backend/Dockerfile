@@ -1,0 +1,26 @@
+FROM node:22-alpine
+
+WORKDIR /app
+
+# Argumentos de build para secretos y configuración
+ARG JWT_SECRET
+ARG AUTH0_DOMAIN
+ARG AUTH0_CLIENT_ID
+ARG AUTH0_CLIENT_SECRET
+ARG AUTH0_CALLBACK_URL
+
+# Establecer variables de entorno dentro del contenedor
+ENV JWT_SECRET=${JWT_SECRET}
+ENV AUTH0_DOMAIN=${AUTH0_DOMAIN}
+ENV AUTH0_CLIENT_ID=${AUTH0_CLIENT_ID}
+ENV AUTH0_CLIENT_SECRET=${AUTH0_CLIENT_SECRET}
+ENV AUTH0_CALLBACK_URL=${AUTH0_CALLBACK_URL}
+
+COPY package*.json ./
+RUN npm install
+
+COPY . .
+
+EXPOSE 5000
+
+CMD ["npm", "run", "start"]
