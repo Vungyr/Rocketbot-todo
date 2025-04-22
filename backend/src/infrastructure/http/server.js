@@ -2,7 +2,7 @@ require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const routes = require("./routes");
-const errorMiddleware = require("./errorMiddleware");
+const errorMiddleware = require("../middlewares/errorMiddleware");
 const loggerMiddleware = require('../middlewares/loggerMiddleware');
 const { sequelize } = require("../db/mysqlClient");
 
