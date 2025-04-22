@@ -68,7 +68,7 @@ en donde si damos click este nos redireccionara a la plataforma Auth0 para reali
 ![image](https://github.com/user-attachments/assets/7f6926fb-22a9-408c-9a7c-fed7028a9611)
 una vez authenticado o registrado nuestra cuenta en Auth0 podremos ver las distintas task del usuario
 ![image](https://github.com/user-attachments/assets/e6a3ea15-5e4f-4852-b327-431e9a395151)
-en donde podremos crear tareas marcarlas, como hechas o eliminarlas
+en donde podremos crear tareas, marcarlas como hechas o eliminarlas
 ![image](https://github.com/user-attachments/assets/f7fb0b74-8bab-4fd2-8891-164451ae25db)
 ![image](https://github.com/user-attachments/assets/fdd64abc-1076-42cf-98e4-fae734ef492c)
 tambien tenemos el boton cerrar sesion en donde podremos dar por terminada la sesion actual del usuario y logearse con otra cuenta
