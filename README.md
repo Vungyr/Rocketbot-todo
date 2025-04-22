@@ -71,7 +71,7 @@ una vez authenticado o registrado nuestra cuenta en Auth0 podremos ver las disti
 en donde podremos crear tareas marcarlas, como hechas o eliminarlas
 ![image](https://github.com/user-attachments/assets/f7fb0b74-8bab-4fd2-8891-164451ae25db)
 ![image](https://github.com/user-attachments/assets/fdd64abc-1076-42cf-98e4-fae734ef492c)
-tambien tenemos el boton cerrar sesion en donde podremos dar por terminada la sesion actual del usuario y logearse con otra cueta
+tambien tenemos el boton cerrar sesion en donde podremos dar por terminada la sesion actual del usuario y logearse con otra cuenta
 ![image](https://github.com/user-attachments/assets/9acc87ec-9634-4507-b97e-e410f12f2843)
 
 por detras el flujo en el backend seria algo asi
